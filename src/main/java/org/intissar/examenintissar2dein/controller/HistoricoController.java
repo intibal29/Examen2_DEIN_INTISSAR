@@ -176,6 +176,7 @@ public class HistoricoController {
      */
     @FXML
     public void irAmenu(ActionEvent actionEvent) {
-        Main.cargarVista("/org/intissar/proyecto2/view/inicio.fxml");
+        logger.info("🔄 Volviendo al menú principal...");
+        Main.cargarVista("/org/intissar/examenintissar2dein/view/inicio.fxml");
     }
 }

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.lang.String?>
+<VBox prefHeight="669.0" prefWidth="840.0"
+      xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.intissar.examenintissar2dein.controller.AlumnoController">
+
+    <!-- Barra superior con selector de idioma y botones -->
+    <HBox prefHeight="39.0" prefWidth="850.0">
+        <children>
+            <!-- Selector de idioma -->
+            <ComboBox fx:id="idiomaComboBox" onAction="#cambiarIdioma" prefHeight="41.0" prefWidth="121.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Español" />
+                        <String fx:value="English" />
+                    </FXCollections>
+                </items>
+            </ComboBox>
+
+            <!-- Botón para ir al menú principal -->
+            <Button fx:id="MenuButton" onAction="#irAmenu" prefHeight="31.0" prefWidth="90.0" text="%boton.menu" />
+
+            <!-- Botón de ayuda -->
+            <Button fx:id="helpButton" onAction="#abrirAyuda" text="%boton.ayuda" />
+
+            <!-- Botón para generar informe -->
+            <Button fx:id="btnGenerarInforme" onAction="#generarInforme" prefHeight="38.0" prefWidth="154.0" text="%boton.generarInforme" />
+        </children>
+    </HBox>
+
+    <!-- Título -->
+    <Label prefHeight="44.0" prefWidth="815.0" styleClass="title-label" text="%titulo.alumnos" textAlignment="CENTER" />
+
+    <!-- Búsqueda de alumnos -->
+    <HBox prefHeight="29.0" prefWidth="814.0">
+        <children>
+            <TextField fx:id="buscarField" prefHeight="34.0" prefWidth="615.0" promptText="%placeholder.buscarAlumno" />
+            <Button onAction="#buscarAlumno" prefHeight="42.0" prefWidth="114.0" styleClass="action-button" text="%boton.buscar" />
+        </children>
+    </HBox>
+
+    <!-- Campos de datos -->
+    <TextField fx:id="dniField" prefHeight="33.0" prefWidth="746.0" promptText="%placeholder.dni" />
+    <TextField fx:id="nombreField" promptText="%placeholder.nombre" />
+    <TextField fx:id="apellido1Field" promptText="%placeholder.apellido1" />
+    <TextField fx:id="apellido2Field" promptText="%placeholder.apellido2" />
+
+    <!-- Botones de gestión -->
+    <HBox prefHeight="61.0" prefWidth="847.0" spacing="10">
+        <Button fx:id="agregarButton" onAction="#agregarAlumno" text="%boton.agregarAlumno" />
+        <Button fx:id="modificarButton" onAction="#modificarAlumno" text="%boton.modificarAlumno" />
+        <Button fx:id="eliminarButton" onAction="#eliminarAlumno" text="%boton.eliminarAlumno" />
+    </HBox>
+
+    <!-- Tabla de alumnos -->
+    <TableView fx:id="alumnosTable" prefHeight="363.0" prefWidth="817.0">
+        <columns>
+            <TableColumn fx:id="dniColumn" text="%columna.dni" />
+            <TableColumn fx:id="nombreColumn" text="%columna.nombre" />
+            <TableColumn fx:id="apellido1Column" text="%columna.apellido1" />
+            <TableColumn fx:id="apellido2Column" text="%columna.apellido2" />
+        </columns>
+    </TableView>
+
+</VBox>

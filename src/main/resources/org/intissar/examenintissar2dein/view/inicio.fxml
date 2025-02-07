@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/styles.css"
+            xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.intissar.proyecto2.Main">
+
+    <!-- Selector de idioma en la parte superior izquierda -->
+    <ComboBox fx:id="idiomaComboBox" layoutX="10" layoutY="10" prefWidth="120"/>
+
+    <Label layoutX="53.0" layoutY="50" prefHeight="56.0" prefWidth="507.0"
+           styleClass="label-title" text="%titulo"/>
+
+    <!-- Botones para navegar a las vistas -->
+    <Button fx:id="btnAlumno" layoutX="100" layoutY="150" onAction="#handleAlumno"
+            prefHeight="42.0" prefWidth="116.0" styleClass="button" text="%boton.alumno"/>
+
+    <Button fx:id="btnHistorico" layoutX="100" layoutY="250" onAction="#handleHistorico"
+            prefHeight="42.0" prefWidth="116.0" styleClass="button" text="%boton.historico"/>
+
+    <Button fx:id="btnLibro" layoutX="303.0" layoutY="250.0" onAction="#handleLibro"
+            prefHeight="42.0" prefWidth="116.0" styleClass="button" text="%boton.libro"/>
+
+    <Button fx:id="btnPrestamo" layoutX="300" layoutY="150" onAction="#handlePrestamo"
+            prefHeight="42.0" prefWidth="116.0" styleClass="button" text="%boton.prestamo"/>
+</AnchorPane>

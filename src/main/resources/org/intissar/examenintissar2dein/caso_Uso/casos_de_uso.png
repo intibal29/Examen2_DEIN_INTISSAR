@@ -1,0 +1,24 @@
+digraph "Casos de Uso" {
+	rankdir=LR
+	A [label="Administrador/Bibliotecario" shape=actor]
+	CU1 [label="Registrar Alumno" shape=ellipse]
+	CU2 [label="Modificar Alumno" shape=ellipse]
+	CU3 [label="Eliminar Alumno" shape=ellipse]
+	CU4 [label="Registrar Préstamo" shape=ellipse]
+	CU5 [label="Devolver Libro" shape=ellipse]
+	CU6 [label="Ver Historial de Préstamos" shape=ellipse]
+	CU7 [label="Generar Informe de Préstamos" shape=ellipse]
+	CU8 [label="Agregar Libro" shape=ellipse]
+	CU9 [label="Modificar Libro" shape=ellipse]
+	CU10 [label="Eliminar Libro" shape=ellipse]
+	A -> CU1
+	A -> CU2
+	A -> CU3
+	A -> CU4
+	A -> CU5
+	A -> CU6
+	A -> CU7
+	A -> CU8
+	A -> CU9
+	A -> CU10
+}

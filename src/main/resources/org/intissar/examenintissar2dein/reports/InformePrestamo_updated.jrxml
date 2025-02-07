@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" 
+    name="InformePrestamo" pageWidth="595" pageHeight="842" columnWidth="555" 
+    leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4a699930-dd5c-46d6-b7ef-e00437c8f9e9">
+
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+    <style name="Title" forecolor="#FFFFFF" fontName="Arial" fontSize="26" isBold="true"/>
+    <style name="ColumnHeader" forecolor="#000000" fontName="Arial" fontSize="14" isBold="true"/>
+    <style name="Detail" fontName="Arial" fontSize="12"/>
+
+    <!-- Parámetros -->
+    <parameter name="idPrestamo" class="java.lang.Integer"/>
+    <parameter name="dni_estudiante" class="java.lang.String"/>
+    <parameter name="isbn" class="java.lang.Integer"/>
+    <parameter name="fechaPrestamo" class="java.util.Date"/>
+    <parameter name="fechaDevolucion" class="java.util.Date"/>
+    <parameter name="prestamo_online" class="java.lang.Boolean"/>
+
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+
+    <title>
+        <band height="80">
+            <staticText>
+                <reportElement x="0" y="10" width="535" height="40"/>
+                <textElement textAlignment="Center">
+                    <font size="22" isBold="true"/>
+                </textElement>
+                <text><![CDATA[INFORME DE PRÉSTAMO]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="430" y="10" width="100" height="20"/>
+                <textElement textAlignment="Right">
+                    <font size="12"/>
+                </textElement>
+                <textFieldExpression><![CDATA[new java.text.SimpleDateFormat("dd/MM/yyyy").format(new java.util.Date())]]></textFieldExpression>
+            </textField>
+        </band>
+    </title>
+
+    <detail>
+        <band height="220">
+            <staticText>
+                <reportElement x="0" y="0" width="535" height="20" backcolor="#00B441"/>
+                <textElement textAlignment="Center">
+                    <font size="14" isBold="true"/>
+                </textElement>
+                <text><![CDATA[DETALLES DEL PRÉSTAMO]]></text>
+            </staticText>
+
+            <staticText>
+                <reportElement x="10" y="30" width="120" height="20"/>
+                <text><![CDATA[ID Préstamo:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="140" y="30" width="200" height="20"/>
+                <textFieldExpression><![CDATA[$P{idPrestamo}]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="10" y="50" width="120" height="20"/>
+                <text><![CDATA[DNI Estudiante:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="140" y="50" width="200" height="20"/>
+                <textFieldExpression><![CDATA[$P{dni_estudiante}]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="10" y="70" width="120" height="20"/>
+                <text><![CDATA[ISBN del Libro:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="140" y="70" width="200" height="20"/>
+                <textFieldExpression><![CDATA[$P{isbn}]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="10" y="90" width="120" height="20"/>
+                <text><![CDATA[Fecha Préstamo:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="140" y="90" width="200" height="20"/>
+                <textFieldExpression><![CDATA[new java.text.SimpleDateFormat("dd/MM/yyyy").format($P{fechaPrestamo})]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="10" y="110" width="120" height="20"/>
+                <text><![CDATA[Fecha Devolución:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="140" y="110" width="200" height="20"/>
+                <textFieldExpression><![CDATA[$P{fechaDevolucion} != null ? new java.text.SimpleDateFormat("dd/MM/yyyy").format($P{fechaDevolucion}) : "No devuelto"]]></textFieldExpression>
+            </textField>
+
+            <staticText>
+                <reportElement x="10" y="130" width="120" height="20"/>
+                <text><![CDATA[Préstamo Online:]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="140" y="130" width="200" height="20"/>
+                <textFieldExpression><![CDATA[$P{prestamo_online} ? "Sí" : "No"]]></textFieldExpression>
+            </textField>
+
+        </band>
+    </detail>
+
+    <pageFooter>
+        <band height="40">
+            <staticText>
+                <reportElement x="450" y="0" width="80" height="20"/>
+                <text><![CDATA[Página $V{PAGE_NUMBER}]]></text>
+            </staticText>
+        </band>
+    </pageFooter>
+
+</jasperReport>

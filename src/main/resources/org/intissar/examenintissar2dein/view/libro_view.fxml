@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" stylesheets="@../styles/styles.css"
+      xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.intissar.examenintissar2dein.controller.LibroController">
+
+    <HBox prefHeight="51.0" prefWidth="697.0">
+        <children>
+            <ComboBox fx:id="idiomaComboBox" onAction="#cambiarIdioma">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Español" />
+                        <String fx:value="English" />
+                    </FXCollections>
+                </items>
+            </ComboBox>
+            <Button fx:id="helpButton" onAction="#abrirAyuda" text="%boton.ayuda" />
+            <Button fx:id="MenuButton" onAction="#irAmenu" text="%boton.menu">
+                <tooltip>
+                    <Tooltip text="%tooltip.menu" />
+                </tooltip>
+            </Button>
+            <Button fx:id="informeButton" onAction="#generarInforme" text="%boton.generarInforme" />
+        </children>
+    </HBox>
+
+    <Label prefHeight="44.0" prefWidth="178.0" style="-fx-font-size: 18px; -fx-font-weight: bold;" text="%titulo.libros" />
+
+    <HBox spacing="10">
+        <TextField fx:id="tituloField" promptText="%placeholder.titulo" />
+        <TextField fx:id="autorField" promptText="%placeholder.autor" />
+        <TextField fx:id="editorialField" promptText="%placeholder.editorial" />
+        <ComboBox fx:id="estadoComboBox" promptText="%placeholder.estado">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="%estado.nuevo" />
+                    <String fx:value="%estado.usadoNuevo" />
+                    <String fx:value="%estado.usadoSeminuevo" />
+                    <String fx:value="%estado.usadoEstropeado" />
+                    <String fx:value="%estado.restaurado" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+    </HBox>
+
+    <HBox spacing="10">
+        <Button onAction="#agregarLibro" text="%boton.agregarLibro" />
+        <Button onAction="#modificarLibro" text="%boton.modificarLibro" />
+    </HBox>
+
+    <HBox spacing="10">
+        <Button onAction="#eliminarLibro" text="%boton.eliminarLibro" />
+        <Button onAction="#mostrarLibrosDadosDeBaja" text="%boton.verLibrosBaja" />
+        <Button onAction="#reactivarLibro" text="%boton.reactivarLibro" />
+        <Button onAction="#marcarBajaLibro" text="%boton.marcarBaja" />
+    </HBox>
+
+    <TableView fx:id="librosTable" prefHeight="300" prefWidth="500">
+        <columns>
+            <TableColumn fx:id="codigoColumn" text="%columna.codigo" />
+            <TableColumn fx:id="tituloColumn" text="%columna.titulo" />
+            <TableColumn fx:id="autorColumn" text="%columna.autor" />
+            <TableColumn fx:id="estadoColumn" text="%columna.estado" />
+        </columns>
+    </TableView>
+
+</VBox>

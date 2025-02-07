@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Ubuntu, Regular";
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu, Bold";
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf");
+}
+
+* {
+    font-family: "Ubuntu, Regular", Arial, sans-serif;
+}
+
+body {
+    font-family: "Ubuntu, Regular", Arial, sans-serif;
+    background-color: #fef6f9; /* Fondo suave rosado */
+    color: #333;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #d81b60; /* Rosa oscuro */
+    text-align: center;
+    font-family: "Ubuntu, Bold", sans-serif;
+}
+
+h2 {
+    color: #ec407a; /* Rosa más claro */
+    border-bottom: 2px solid #f48fb1; /* Línea decorativa */
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+a {
+    color: #ec407a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #f8bbd0; /* Borde decorativo */
+    border-radius: 10px;
+}

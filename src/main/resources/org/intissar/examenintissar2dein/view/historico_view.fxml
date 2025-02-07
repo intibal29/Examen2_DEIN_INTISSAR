@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" prefHeight="464.0" prefWidth="1035.0" spacing="10" stylesheets="@../styles/styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.intissar.proyecto2.controller.HistoricoController">
+<VBox alignment="CENTER" prefHeight="464.0" prefWidth="1035.0" spacing="10" stylesheets="@../styles/styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.intissar.examenintissar2dein.controller.HistoricoController">
 
     <!-- 🔹 ComboBox para cambiar de idioma -->
     <HBox spacing="10">

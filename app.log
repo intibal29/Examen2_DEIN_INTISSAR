@@ -1,0 +1,380 @@
+feb 07, 2025 10:37:31 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:37:31 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:37:31 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:37:31 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:37:32 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:37:32 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:37:33 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:37:34 A. M. org.intissar.examenintissar2dein.Main handlePrestamo
+INFO: Navegando a la vista de préstamos.
+feb 07, 2025 10:37:34 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/prestamo_view.fxml
+feb 07, 2025 10:37:34 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/examenintissar2dein/view/prestamo_view.fxml
+feb 07, 2025 10:37:37 A. M. org.intissar.examenintissar2dein.Main handleAlumno
+INFO: Navegando a la vista de alumnos.
+feb 07, 2025 10:37:37 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:37:37 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:37:39 A. M. org.intissar.examenintissar2dein.Main handleHistorico
+INFO: Navegando a la vista del histórico.
+feb 07, 2025 10:37:39 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/historico_view.fxml
+feb 07, 2025 10:37:39 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/examenintissar2dein/view/historico_view.fxml
+feb 07, 2025 10:37:40 A. M. org.intissar.examenintissar2dein.Main handleLibro
+INFO: Navegando a la vista de libros.
+feb 07, 2025 10:37:40 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/libro_view.fxml
+feb 07, 2025 10:37:40 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/examenintissar2dein/view/libro_view.fxml
+feb 07, 2025 10:37:42 A. M. org.intissar.examenintissar2dein.Main cambiarIdiomaSeleccionado
+INFO: 🌍 Usuario cambió el idioma a: en
+feb 07, 2025 10:37:42 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: en
+feb 07, 2025 10:37:42 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:37:42 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:37:43 A. M. org.intissar.examenintissar2dein.Main cambiarIdiomaSeleccionado
+INFO: 🌍 Usuario cambió el idioma a: es
+feb 07, 2025 10:37:43 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:37:43 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:37:43 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:37:47 A. M. org.intissar.examenintissar2dein.Main handleAlumno
+INFO: Navegando a la vista de alumnos.
+feb 07, 2025 10:37:47 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:37:47 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:37:54 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:37:54 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:37:54 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:37:54 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:37:55 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:37:55 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:37:56 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:37:57 A. M. org.intissar.examenintissar2dein.Main handleAlumno
+INFO: Navegando a la vista de alumnos.
+feb 07, 2025 10:37:57 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:37:57 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:39:49 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:39:49 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:39:49 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:39:49 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:39:50 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:39:50 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:39:51 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:39:52 A. M. org.intissar.examenintissar2dein.Main handleAlumno
+INFO: Navegando a la vista de alumnos.
+feb 07, 2025 10:39:52 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:39:53 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Alumno en la escena.
+feb 07, 2025 10:39:53 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Histórico en la escena.
+feb 07, 2025 10:39:53 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Libro en la escena.
+feb 07, 2025 10:39:53 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Préstamo en la escena.
+feb 07, 2025 10:39:53 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:40:17 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:40:17 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:40:18 A. M. org.intissar.examenintissar2dein.Main handleAlumno
+INFO: Navegando a la vista de alumnos.
+feb 07, 2025 10:40:18 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:40:18 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Alumno en la escena.
+feb 07, 2025 10:40:18 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Histórico en la escena.
+feb 07, 2025 10:40:18 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Libro en la escena.
+feb 07, 2025 10:40:18 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Préstamo en la escena.
+feb 07, 2025 10:40:18 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:40:51 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:40:51 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:40:51 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:40:51 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:40:51 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:40:51 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:40:52 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:40:53 A. M. org.intissar.examenintissar2dein.Main handlePrestamo
+INFO: Navegando a la vista de préstamos.
+feb 07, 2025 10:40:53 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/prestamo_view.fxml
+feb 07, 2025 10:40:54 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Alumno en la escena.
+feb 07, 2025 10:40:54 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Histórico en la escena.
+feb 07, 2025 10:40:54 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Libro en la escena.
+feb 07, 2025 10:40:54 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Préstamo en la escena.
+feb 07, 2025 10:40:54 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:41:00 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/proyecto2/view/inicio.fxml
+feb 07, 2025 10:41:00 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/proyecto2/view/inicio.fxml
+feb 07, 2025 10:41:24 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:41:24 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:41:24 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:41:24 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:41:25 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:41:25 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:41:26 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:41:26 A. M. org.intissar.examenintissar2dein.Main handleHistorico
+INFO: Navegando a la vista del histórico.
+feb 07, 2025 10:41:26 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/historico_view.fxml
+feb 07, 2025 10:41:26 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/examenintissar2dein/view/historico_view.fxml
+feb 07, 2025 10:41:28 A. M. org.intissar.examenintissar2dein.Main handleLibro
+INFO: Navegando a la vista de libros.
+feb 07, 2025 10:41:28 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/libro_view.fxml
+feb 07, 2025 10:41:28 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/examenintissar2dein/view/libro_view.fxml
+feb 07, 2025 10:45:51 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:45:51 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:45:51 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:45:51 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:45:52 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:45:52 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:45:53 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:45:53 A. M. org.intissar.examenintissar2dein.Main handleAlumno
+INFO: Navegando a la vista de alumnos.
+feb 07, 2025 10:45:53 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:45:55 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Alumno en la escena.
+feb 07, 2025 10:45:55 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Histórico en la escena.
+feb 07, 2025 10:45:55 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Libro en la escena.
+feb 07, 2025 10:45:55 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Préstamo en la escena.
+feb 07, 2025 10:45:55 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:46:49 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:46:49 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:46:49 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:46:49 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:46:49 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:46:49 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:46:50 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:46:50 A. M. org.intissar.examenintissar2dein.Main handleAlumno
+INFO: Navegando a la vista de alumnos.
+feb 07, 2025 10:46:50 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:46:51 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Alumno en la escena.
+feb 07, 2025 10:46:51 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Histórico en la escena.
+feb 07, 2025 10:46:51 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Libro en la escena.
+feb 07, 2025 10:46:51 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Préstamo en la escena.
+feb 07, 2025 10:46:51 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:48:27 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:48:27 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:48:27 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:48:27 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:48:28 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:48:28 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:48:29 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:48:29 A. M. org.intissar.examenintissar2dein.Main handlePrestamo
+INFO: Navegando a la vista de préstamos.
+feb 07, 2025 10:48:29 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/prestamo_view.fxml
+feb 07, 2025 10:48:31 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Alumno en la escena.
+feb 07, 2025 10:48:31 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Histórico en la escena.
+feb 07, 2025 10:48:31 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Libro en la escena.
+feb 07, 2025 10:48:31 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Préstamo en la escena.
+feb 07, 2025 10:48:31 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:51:31 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:51:31 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:51:31 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:51:31 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:51:32 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:51:32 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:51:32 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:51:33 A. M. org.intissar.examenintissar2dein.Main handleAlumno
+INFO: Navegando a la vista de alumnos.
+feb 07, 2025 10:51:33 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/alumno_view.fxml
+feb 07, 2025 10:51:34 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Alumno en la escena.
+feb 07, 2025 10:51:34 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Histórico en la escena.
+feb 07, 2025 10:51:34 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Libro en la escena.
+feb 07, 2025 10:51:34 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Préstamo en la escena.
+feb 07, 2025 10:51:34 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:51:41 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:51:41 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:51:41 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:51:41 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:51:42 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:51:42 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:51:43 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:51:43 A. M. org.intissar.examenintissar2dein.Main handlePrestamo
+INFO: Navegando a la vista de préstamos.
+feb 07, 2025 10:51:43 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/prestamo_view.fxml
+feb 07, 2025 10:51:45 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Alumno en la escena.
+feb 07, 2025 10:51:45 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Histórico en la escena.
+feb 07, 2025 10:51:45 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Libro en la escena.
+feb 07, 2025 10:51:45 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Préstamo en la escena.
+feb 07, 2025 10:51:45 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:51:47 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/proyecto2/view/inicio.fxml
+feb 07, 2025 10:51:47 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/proyecto2/view/inicio.fxml
+feb 07, 2025 10:53:39 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:53:39 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:53:39 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:53:39 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:53:41 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:53:41 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:53:41 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:53:42 A. M. org.intissar.examenintissar2dein.Main handlePrestamo
+INFO: Navegando a la vista de préstamos.
+feb 07, 2025 10:53:42 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/prestamo_view.fxml
+feb 07, 2025 10:53:43 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Alumno en la escena.
+feb 07, 2025 10:53:43 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Histórico en la escena.
+feb 07, 2025 10:53:43 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Libro en la escena.
+feb 07, 2025 10:53:43 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+WARNING: ⚠ No se encontró el botón de Préstamo en la escena.
+feb 07, 2025 10:53:43 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:53:44 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/proyecto2/view/inicio.fxml
+feb 07, 2025 10:53:44 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/proyecto2/view/inicio.fxml
+feb 07, 2025 10:53:50 A. M. org.intissar.examenintissar2dein.Main main
+INFO: Iniciando la aplicación desde el método main.
+feb 07, 2025 10:53:50 A. M. org.intissar.examenintissar2dein.Main start
+INFO: Iniciando aplicación...
+feb 07, 2025 10:53:50 A. M. org.intissar.examenintissar2dein.Main cambiarIdioma
+INFO: 🌍 Idioma cambiado a: es
+feb 07, 2025 10:53:50 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:53:51 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:53:51 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/inicio.fxml
+feb 07, 2025 10:53:51 A. M. org.intissar.examenintissar2dein.Main actualizarTextos
+INFO: Textos de la UI actualizados con el idioma: {}
+feb 07, 2025 10:53:52 A. M. org.intissar.examenintissar2dein.Main handleHistorico
+INFO: Navegando a la vista del histórico.
+feb 07, 2025 10:53:52 A. M. org.intissar.examenintissar2dein.Main cargarVista
+INFO: Cargando vista: /org/intissar/examenintissar2dein/view/historico_view.fxml
+feb 07, 2025 10:53:52 A. M. org.intissar.examenintissar2dein.Main cargarVista
+SEVERE: Error al cargar la vista: /org/intissar/examenintissar2dein/view/historico_view.fxml

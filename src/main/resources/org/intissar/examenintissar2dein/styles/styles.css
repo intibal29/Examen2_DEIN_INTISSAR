@@ -1,0 +1,147 @@
+/* General */
+.root {
+    -fx-font-family: "Poppins", sans-serif; /* Tipografía elegante */
+    -fx-font-size: 14px;
+    -fx-background-color: #fef8f8; /* Fondo general de la aplicación */
+}
+
+/* Títulos */
+.label-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #d6789f; /* Rosa oscuro elegante */
+    -fx-padding: 10 0 10 0;
+}
+
+/* Etiquetas (Labels) */
+.label {
+    -fx-text-fill: #6b5b95; /* Lila elegante */
+    -fx-font-weight: 500;
+}
+
+/* Botones */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #fbb1bd, #f78fa7); /* Rosa degradado */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 25px; /* Bordes redondeados */
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0, 0, 2); /* Sombra suave */
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #f78fa7, #f36f8f); /* Cambio de color al pasar el ratón */
+}
+
+.button:pressed {
+    -fx-background-color: #f36f8f; /* Color más oscuro al presionar */
+}
+
+/* Campos de texto */
+.text-field, .password-field {
+    -fx-background-color: #ffffff; /* Blanco puro */
+    -fx-border-color: #eac6d8; /* Bordes rosados */
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5 10;
+    -fx-text-fill: #4a4a4a; /* Texto gris oscuro */
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #d6789f; /* Rosa oscuro al enfocarse */
+    -fx-border-width: 2px;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #eac6d8;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #4a4a4a;
+}
+
+.combo-box:focused {
+    -fx-border-color: #d6789f;
+}
+
+/* ChoiceBox */
+.choice-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #eac6d8;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5;
+}
+
+/* Tablas (TableView) */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #eac6d8;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10;
+    -fx-text-fill: #4a4a4a;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #fbb1bd; /* Encabezado rosa */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Títulos de pestañas (TabPane) */
+.tab-pane .tab-header-background {
+    -fx-background-color: #fbb1bd; /* Fondo rosa claro */
+}
+
+.tab-pane .tab {
+    -fx-background-color: transparent;
+    -fx-text-fill: #6b5b95; /* Lila */
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #d6789f; /* Fondo rosa oscuro para la pestaña seleccionada */
+    -fx-text-fill: white;
+}
+
+/* Alertas */
+.dialog-pane {
+    -fx-background-color: #fef8f8; /* Fondo suave */
+    -fx-border-color: #d6789f; /* Borde rosa oscuro */
+    -fx-border-width: 2px;
+}
+
+.dialog-pane .content {
+    -fx-font-size: 14px;
+    -fx-text-fill: #4a4a4a; /* Texto gris oscuro */
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #fbb1bd; /* Encabezado rosa claro */
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* Scrollbars */
+.scroll-bar {
+    -fx-background-color: #eac6d8; /* Fondo del scroll */
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #d6789f; /* Botón del scroll */
+    -fx-background-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    -fx-background-color: #fbb1bd;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}

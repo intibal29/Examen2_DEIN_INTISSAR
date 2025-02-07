@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="InformeAlumnos" pageWidth="595" pageHeight="842" columnWidth="515" leftMargin="40" rightMargin="40" topMargin="40" bottomMargin="40" uuid="61fb444e-15fe-405b-8e29-e27da1972c84">
+	<property name="ireport.encoding" value="UTF-8"/>
+	<style name="TitleStyle" fontName="Arial" fontSize="16" isBold="true"/>
+	<style name="HeaderStyle" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="DetailStyle" fontName="Arial" fontSize="10"/>
+	<queryString>
+		<![CDATA[SELECT 
+            a.dni,
+            a.nombre,
+            a.apellido1,
+            a.apellido2,
+            COUNT(hp.codigo_libro) AS total_libros_prestados,
+            AVG(DATEDIFF(hp.fecha_devolucion, hp.fecha_prestamo)) AS promedio_dias_prestamo,
+            MAX(DATEDIFF(hp.fecha_devolucion, hp.fecha_prestamo)) AS max_dias_prestamo
+        FROM libros.Alumno a
+        LEFT JOIN libros.Historico_prestamo hp ON a.dni = hp.dni_alumno
+        GROUP BY a.dni, a.nombre, a.apellido1, a.apellido2;]]>
+	</queryString>
+	<field name="dni" class="java.lang.String"/>
+	<field name="nombre" class="java.lang.String"/>
+	<field name="apellido1" class="java.lang.String"/>
+	<field name="apellido2" class="java.lang.String"/>
+	<field name="total_libros_prestados" class="java.lang.Integer"/>
+	<field name="promedio_dias_prestamo" class="java.math.BigDecimal"/>
+	<field name="max_dias_prestamo" class="java.lang.Integer"/>
+	<title>
+		<band height="50">
+			<staticText>
+				<reportElement style="TitleStyle" x="0" y="10" width="500" height="30" uuid="15ad344a-3d8b-4068-9f51-f3f5dd39d54f"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[INFORME DE ALUMNOS - PRÉSTAMOS Y DATOS CALCULADOS]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="28">
+			<staticText>
+				<reportElement style="HeaderStyle" x="-31" y="5" width="80" height="20" uuid="ff420f90-b6f7-4c03-a6c8-e1fb3ec254d0"/>
+				<text><![CDATA[DNI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="HeaderStyle" x="59" y="5" width="101" height="20" uuid="cce4ddd0-d5c1-4997-9198-144826c40d58"/>
+				<text><![CDATA[Nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="HeaderStyle" x="170" y="5" width="120" height="20" uuid="e021968a-def3-40fc-b73f-710de0cf4661"/>
+				<text><![CDATA[Apellido]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="HeaderStyle" x="300" y="5" width="80" height="20" uuid="b6ce1227-87c3-4f1d-b29d-9d7ae496a76b"/>
+				<text><![CDATA[Total Libros]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="HeaderStyle" x="380" y="2" width="80" height="20" uuid="821cbd26-8451-484c-b9c9-5f10ad1972e3"/>
+				<text><![CDATA[Días Promedio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="HeaderStyle" x="470" y="3" width="80" height="25" uuid="32266d3f-9f03-4716-9f15-b269a66a8251"/>
+				<text><![CDATA[Máximo Días]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<textField>
+				<reportElement style="DetailStyle" x="-31" y="0" width="80" height="20" uuid="ed31644b-2fc0-4617-b967-0a071e65fd5e"/>
+				<textFieldExpression><![CDATA[$F{dni}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="DetailStyle" x="59" y="0" width="120" height="20" uuid="22d4799a-af9c-47a2-ab81-ed65e6062039"/>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="DetailStyle" x="170" y="0" width="120" height="20" uuid="7e95b7c4-c20e-4ec1-9c71-1286af6b77a2"/>
+				<textFieldExpression><![CDATA[$F{apellido1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="DetailStyle" x="300" y="0" width="80" height="20" uuid="d4ca9666-7307-47b5-912a-503287778dc6"/>
+				<textFieldExpression><![CDATA[$F{total_libros_prestados}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="DetailStyle" x="380" y="-3" width="80" height="20" uuid="f94435f0-b7ee-4d7e-b753-448505d0089c"/>
+				<textFieldExpression><![CDATA[$F{promedio_dias_prestamo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement style="DetailStyle" x="470" y="0" width="80" height="20" uuid="c589306d-a30d-4838-a179-b0b912f5487d"/>
+				<textFieldExpression><![CDATA[$F{max_dias_prestamo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="30">
+			<staticText>
+				<reportElement style="DetailStyle" x="0" y="10" width="500" height="20" uuid="4cfdd681-974b-4c38-81ed-286a7225bff2"/>
+				<text><![CDATA[Fecha de generación: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="140" y="10" width="200" height="20" uuid="30c4576d-db82-4f99-a407-30c493d50f0e"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Page">
+				<reportElement x="450" y="10" width="50" height="20" uuid="861608e0-3062-483e-aefc-fa02da2447ad"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

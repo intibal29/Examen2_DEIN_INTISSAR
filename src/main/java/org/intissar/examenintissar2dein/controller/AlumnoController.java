@@ -416,7 +416,7 @@ public class AlumnoController {
     @FXML
     public void irAmenu(ActionEvent actionEvent) {
         logger.info("🔄 Volviendo al menú principal...");
-        Main.cargarVista("/org/intissar/proyecto2/view/inicio.fxml");
+        Main.cargarVista("/org/intissar/examenintissar2dein/view/inicio.fxml");
     }
 
 
